@@ -1,0 +1,22 @@
+div{
+    display: inline-block;
+}
+.satu{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 10px 20px 30px 30px;
+    /* CARA BACANYA YAITU 10PX MARGIN-TOP 20PX MARGIN-RIGHT DST,
+     SE ARAH JARUM JAM, DAN DIMULAI DARI ATAS(MARGIN - TOP)  */
+}
+.dua{
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+}
+.tiga{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+
+}

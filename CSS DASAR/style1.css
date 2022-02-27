@@ -1,0 +1,8 @@
+body {
+  /* background-color: rgb(255, 255, 255);
+  background-image: url(gambar/tree.png);
+  background-repeat: no-repeat;
+  background-position: top center; */
+  /* SHORTHAND */
+  background: white url(gambar/tree.png) no-repeat top center;
+}

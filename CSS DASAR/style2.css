@@ -1,0 +1,26 @@
+body {
+  font-family: arial;
+}
+/* kalo mau lebih dari satu item bisa pake koma */
+h1,
+h2 {
+  color: red;
+}
+/* kalo mau lebih spesifik bisa pakai banyak tag, cara bacanya dari kanan: tolong 
+buatkan syle yg ada ditag a didalam tag li di dalam tag ul */
+ul li a {
+  color: magenta;
+}
+ol li a {
+  color: gold;
+}
+/* kalo mau manggil id bisa pake ="#" dan untuk class pake ="."*/
+#p1 {
+  color: red;
+}
+.p2 {
+  color: mediumslateblue;
+}
+/* cara baca: css tolong carikan class/id yg bernama "p1"  
+catatan: sebisa mungkin jangan menggunakan atribut id, karna
+bebannya terlalu berat, gunakan atribut elemen saja!!!*/

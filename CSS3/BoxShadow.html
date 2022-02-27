@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxShadow</title>
+    <style>
+        .satu{
+            height: 270px;
+            width: 270px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 50%;
+            margin:  auto;
+            position: absolute;
+            right: 40%;
+            box-shadow:
+            inset 20px 0 0 0 yellow,
+            inset -20px -0 0 0 red ,
+            inset 0 20px 0 0 rgb(0, 255, 0) ,
+            inset 0 -20px 0 0 blue ;
+            z-index: 99;
+        }
+        .in{
+            height: 250px;
+            width: 250px;
+            background-color: rgb(182, 255, 176);
+            border-radius: 50%;
+            position: relative;
+            box-shadow: 0 0 64px 48px aqua ;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            margin: auto    ;
+        }
+        .in p{
+            font: normal small-caps bolder 50px/10px times;
+            text-align: center;
+            line-height: 250px;
+            	color: white;
+		text-shadow: 0 0 20px rgb(108, 255, 248);
+	}
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="satu"></div>
+        <div class="in"><p>HUMAN</p></div>
+    </div>
+    <!-- <div class="out"></div> -->
+</body>
+</html>

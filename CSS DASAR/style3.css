@@ -1,0 +1,56 @@
+#header {
+  background: teal;
+  color: white;
+  height: 100px;
+  padding: 50px;
+}
+/* <!-- #header {
+  background: teal;
+  color: white;
+  height: 100px;
+  padding: 50px;
+}    --> */
+
+/* .pink {
+  color: white;
+  background: pink;
+  padding: 5px;
+}
+.text-white {
+  color: white;
+}
+ .bg-teal {
+  background: teal;
+} */
+
+.jojo:link {
+  font-size: 20px;
+  color: rgb(11, 255, 2);
+}
+.jojo:hover {
+  font-size: 25px;
+  color: darkgreen;
+}
+.jojo:active {
+  font-weight: 900;
+  color: lawngreen;
+}
+.jojo:visited {
+  font-style: italic;
+}
+
+li:nth-child(even) a {
+  color: crimson;
+}
+li:nth-child(even) a:visited {
+  color: yellow;
+}
+
+p:first-of-type {
+  color: crimson;
+  font-size: x-large;
+}
+p:last-of-type {
+  color: green;
+  font-size: xx-large ;
+}

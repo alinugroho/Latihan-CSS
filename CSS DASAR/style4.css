@@ -1,0 +1,18 @@
+body {
+  font-family: arial;
+  color: crimson;
+}
+/* Kenapa warna link <a> nya ga berubah? Karena elemen <a> tidak dapt mewarisi
+nilai dari properti color, agar bisa sama dengan warna body (PARENTnya) maka
+perlu menambahkan "inherit" pada property <a> */
+
+a{
+    color: inherit;
+}
+.n{
+  font-family: sans-serif;
+  color: aqua;
+  font-size: 50px;
+  font-style: italic;
+  font-variant: small-caps;
+}
